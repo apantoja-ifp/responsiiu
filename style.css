@@ -25,7 +25,9 @@ p {
     z-index: 1000;
     scale: 0.2 1;
     animation: analitzador linear;
-    animation-timeline: scroll();
+    -webkit-animation-timeline: scroll();
+       -moz-animation-timeline: scroll();
+            animation-timeline: scroll();
 
 }
 
@@ -52,3 +54,4 @@ p {
       background-color: rgb(60, 255, 30);
     }
 }
+
