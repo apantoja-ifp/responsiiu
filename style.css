@@ -1,6 +1,9 @@
+html { font-size: 10px;
+}
+
 body {
-    font-size: 24px;
     font-family: Arial, Helvetica Sans-serif;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -17,7 +20,7 @@ p {
 }
 .progres {
     height: 10px;
-    background: Limegreen;
+    background: rgb(156, 239, 160);
     position: fixed;
     top: 0;
     left: 0;
@@ -45,13 +48,13 @@ p {
 
 @media (min-width:481px) and (max-width:1279px){
     body {
-        background-color:orange;
+        background-color:rgb(210, 184, 238);
     }
 }
   
 @media (min-width: 1280px) {
     body {
-      background-color: rgb(60, 255, 30);
+      background-color: rgb(238, 243, 177);
     }
 }
 
