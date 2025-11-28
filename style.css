@@ -42,7 +42,7 @@ p {
 
 @media (max-width: 480px) {
     body {
-      background-color: red;
+      background-color: rgb(228, 171, 171);
     }
 }
 
